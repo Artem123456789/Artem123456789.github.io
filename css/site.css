@@ -1,0 +1,223 @@
+body{
+  background: black !important;
+  font-family: Abril Fatface !important;
+}
+
+header{
+  width: 100%;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 18px;
+  width: 60%;
+  color: white;
+}
+
+.nav-item{
+ color: white;
+ text-decoration: none; 
+}
+
+.section-header{
+  font-size: 48px;
+  color: #7F00FF;
+}
+
+.section-text{
+  color: white;
+  font-size: 24px;
+}
+
+#bio{
+  margin: auto;
+  margin-top: 350px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 346.54px;
+}
+
+#bio-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+#biography-img{
+  width: 350px;
+  height: 100%;
+}
+
+#biography-text{
+  width: 70%;
+}
+
+#releases{
+  margin-top: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#releases-list{
+  margin-top: 200px;
+  width: 90%;
+}
+
+.release{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.release-main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 450px;
+}
+
+.release-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  height: 60%;
+}
+
+.release-description-name{
+  color: #7F00FF;
+  font-size: 36px;
+}
+
+.play-track-btn{
+  display: flex;
+  flex-direction: column;
+  background: black;
+  border: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-track-img{
+  width: 15px;
+  height: 20px;
+}
+
+.release-tracklist{
+  margin-top: 250px;
+  width: 80%;
+}
+
+.release-track{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100px;
+}
+
+.track-info{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+#preorder{
+  margin-top: 500px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#preorder-header{
+  font-size: 48px;
+  color:#7F00FF;
+}
+
+#preorder-body{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#preorder-img{
+  width: 400px;
+  height: 400px;
+}
+
+#preorder-body-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#preorder-body-text-main{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+#preorder-name{
+  font-size: 36px;
+}
+
+#preorder-release-date{
+  font-size: 24px;
+}
+
+#preorder-button{
+  font-family: Abril Fatface !important;
+  color:#7F00FF;
+  background: black;
+  font-size: 28px;
+  width: 300px;
+  height: 65px;
+  border: 7px solid white;
+  cursor: pointer;
+}
+
+#contacts{
+  margin-top: 700px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+#contacts-header{
+  font-size: 30px;
+}
+
+#contacts-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 22px;
+  letter-spacing: 3px;
+}
