@@ -221,3 +221,22 @@ nav{
   font-size: 22px;
   letter-spacing: 3px;
 }
+
+/* styling the song progress container */
+.progress-container {
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 0;
+  height: 4px;
+  width: 100%;
+}
+
+/* styling the actual progress bar and making it flow along with the song*/
+.progress {
+  background-color: #7F00FF;
+  border-radius: 5px;
+  height: 100%;
+  width: 1%;
+  transition: width 0.2s linear;
+}

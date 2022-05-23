@@ -53,16 +53,18 @@
                             <span class="release-tracklist-header">Playlist:</span>
                             <div class="release-tracklist-tracks">
                                 <div class="release-track">
-                                    <button class="play-track-btn">
-                                        <img class="play-track-img" src="img/pause_img.png" alt="">
+                                    <button id="playBtn" class="play-track-btn">
+                                        <img id="play-track-img" class="play-track-img" src="img/play_img.png" alt="">
                                     </button>
+                                    
                                     <div class="track-info section-text">
+                                        <audio src="music/mile09.mp3" id="audio"></audio>
                                         <span class="track-author">mile09</span>
-                                        <span class="track-name">Track 1</span>
+                                        <span id="track-name" class="track-name">mile09</span>
                                     </div>
                                 </div>
                                 <div class="release-track">
-                                    <button class="play-track-btn">
+                                    <button id="playBtn" class="play-track-btn">
                                         <img class="play-track-img" src="img/play_img.png" alt="">
                                     </button>
                                     <div class="track-info section-text">
@@ -114,7 +116,12 @@
                                         <span class="track-author">mile09</span>
                                         <span class="track-name">Track 7</span>
                                     </div>
-                                </div>
+                                   
+                                    </div>
+                                    <div class="progress-container" id="progress-container">
+                                        <div class="progress" id="progress"></div>
+                                      </div>    
+                                             
                             </div>
                         </div>
                     </div>
@@ -143,5 +150,6 @@
             </section>
         </main>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
